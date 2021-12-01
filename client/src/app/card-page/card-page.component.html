@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+            
+            <app-card class="col" *ngFor="let post of posts"
+                [title]="post.title"
+                [imageUrl]="post.imageUrl"
+                [username]="post.username"
+                [content]="post.content"
+            ></app-card>
+
+    </div>
+</div>
