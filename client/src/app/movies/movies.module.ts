@@ -14,7 +14,7 @@ import { MoviesHomeComponent } from './movies-home/movies-home.component';
     MoviesRoutingModule
   ],
   exports: [
-    MoviesHomeComponent
+    
   ]
 })
 export class MoviesModule { }
